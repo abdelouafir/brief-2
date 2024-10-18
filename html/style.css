@@ -1,0 +1,247 @@
+*{
+    margin: 0rem;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* les style de heder  start*/
+
+.header-top a img {
+    margin: 1.5rem;
+    margin-left: 70px;
+}
+.header-top {
+    height: 150px;
+}
+.header-top ul{
+    width: 30rem;
+    height: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 950px;
+    bottom: 100px;
+    list-style: none;
+    text-decoration: none;
+    margin: 3rem;
+
+}
+.header-top ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.header-top ul .login-page a {
+    color: black;
+    border: solid #0f9bec;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.header-top ul .login-page {
+    margin-left: 3rem;
+}
+/* les style de heder  end*/
+/*style home start*/
+.home .home-welcomme {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.home .home-welcomme .backgrawond-image img {
+    width: 1500px;
+    height: 800px;
+}
+.home .home-welcomme h1 {
+    width: 40%;
+    position: absolute ;
+    letter-spacing: 5px ;
+    bottom: 200px;
+    margin: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.home .home-welcomme p {
+    position: absolute;
+    bottom: 100px;
+    font-size: 1.5rem;
+    margin: 0rem 5rem;
+    width: 40%;
+    font-weight: bold;
+}
+
+
+.home-contres h2{
+    text-align: center;
+    margin: 6rem;
+}
+.home-contres .home-contres-carts .eta img {
+    width: 278px;
+    height: 426px;
+    margin: 50px;
+    border-radius: 20px;
+}
+.home-contres .home-contres-carts {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.home-contres {
+    display: grid;
+    justify-content: center;
+}
+.home-contres .home-contres-carts .eta .america,.spain,.london,.france{
+    font-weight:bold ;
+    font-size: 22px;
+    position: relative;
+    left: 9rem;
+    top: 9rem;
+    letter-spacing: 2px;
+}
+.home-contres .home-contres-carts .eta .spain {
+    font-weight:bold ;
+    font-size: 22px;
+    position: relative;
+    left: 9rem;
+    top: 9rem;
+    letter-spacing: 2px;
+}
+/*parter Recently Added start*/
+.home h2 {
+    margin: 50px 0px 30px 50px;
+}
+.Recently {
+    margin: 0rem 5rem ;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.Recently .Recently-maison1 .maison1 img {
+    width: 151px;
+    height: 191px;
+    border-radius: 10px;
+}
+.Recently .Recently-maison1 {
+    display: flex; 
+    border: solid rgba(128, 128, 128, 0.484);
+    width: 95%;
+    padding: 30px;
+    border-radius:20px;
+    margin: 2em 0em 0em 0em;
+}
+.Recently #maison1,#maison3,#maison5 {
+    position: relative;
+    left: 0rem;
+}
+.Recently #maison2,#maison4,#maison6 {
+    position: relative;
+    left: 10rem;
+}
+.Recently .Recently-maison1 .Recently-content h2{
+     width: fit-content;
+     margin-left: 2rem ;
+}
+.Recently .Recently-maison1 .Recently-content .des-p{
+    display: flex ;
+    width: 100%;
+    margin-left: 0rem ;
+    margin-right: 2rem;
+}
+.Recently .Recently-maison1 .Recently-content .des-p span{
+    margin: 0rem 1.5rem;
+    color: #000000;
+}
+.Recently .Recently-maison1 .Recently-content .foter{
+   display: flex;
+   margin-left: 2rem;
+   margin-top: 1rem;
+   color: #000000;
+   justify-content: space-between;
+}
+.Recently .Recently-maison1 .Recently-content .foter button {
+    background: #8F90A6;
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+/*parter Recently Added end*/
+.home-contact .continer img {
+    width: 690px;
+    height: 600px;
+}
+.home-contact .continer {
+    margin: 5rem 0rem;
+    background-color: #1dacff1b;
+    height: 600px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 20px;
+}
+.home-contact .continer .content h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+    
+}
+.home-contact .continer .content p {
+    position: relative;
+    width: 40rem;
+    left: 2rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #0000006b;
+    
+}
+.home-contact .continer .content button {
+    position: relative;
+    left: 2rem;
+    margin: 3rem 0rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px ;
+    background: #0f9bec9e;
+    color: white;
+}
+/*^homme contct start */
+/*homme-foter start*/
+.home-foter .continer {
+    display: grid;
+    grid-template-columns:600px 300px 300px 300px;
+}
+.home-foter .continer {
+     width: 100rem;
+}
+.home-foter .continer .content .foter-1 p {
+    width: 550px;
+    margin: 0rem 1rem;
+    line-height: 1.5rem;
+}
+.home-foter .continer .content .media ul  {
+    list-style: none;
+    display: flex;
+    margin: 2rem;
+}
+.home-foter .continer .content .media ul li{
+    margin: 0.5rem;
+}
+.home-foter .continer .content2  ul li{
+    margin: 0.5rem;
+    list-style: none;
+    line-height: 2rem;
+}
+.home-foter .continer .content-3 ul li{
+    margin: 0.5rem;
+    list-style: none;
+    line-height: 2rem;
+}
+.home-foter .continer .content4 ul h3,p,input{
+    margin: 0.5rem;
+    list-style: none;
+    line-height: 3rem;
+}
+.home-foter .continer .content4 input {
+    color: #00000085;
+    text-align: center;
+}
+/*home-foter end*/

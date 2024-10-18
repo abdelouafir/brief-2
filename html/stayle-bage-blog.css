@@ -1,0 +1,129 @@
+*{
+    margin: 0rem;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body {
+    padding: 4rem;
+    width: 100rem;
+}
+/* les style de heder  start*/
+
+.header-top a img {
+    margin: 1.5rem;
+    margin-left: 70px;
+}
+.header-top {
+    height: 150px;
+}
+.header-top ul{
+    width: 30rem;
+    height: 0rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 950px;
+    bottom: 100px;
+    list-style: none;
+    text-decoration: none;
+    margin: 3rem;
+
+}
+.header-top ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.header-top ul .login-page a {
+    color: #0f9bec;
+    border: solid #0f9bec;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.header-top ul .login-page {
+    margin-left: 3rem;
+}
+/* les style de heder  end*/
+.blog-bage .continer {
+    width: 90%;
+}
+.blog-bage .continer h1 {
+    width: fit-content;
+    margin: auto;
+    margin-top: 5rem ;
+    font-size: 3rem;
+    
+}
+.blog-bage .continer p {
+    width: fit-content;
+    margin: auto;
+    font-size:1.5rem ;
+    letter-spacing: 0.1rem;
+
+}
+.blog-bage .continer .content {
+    margin: 5rem 0rem;
+    margin-top: 15rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    left: 10rem;
+}
+.blog-bage .continer .content .premer-content img {
+    margin-bottom: 3rem ;
+}
+
+.blog-bage .continer .content .premer-content h3 {
+    margin-bottom: 0.5rem ;
+    font-size: 22px;
+    color: #0f9bec;
+    width: 23rem;
+}
+.blog-bage .continer .content .premer-content p {
+    margin-bottom: 0.5rem ;
+    font-size: 18px;
+    padding-right: 100px;
+}
+/*dicimontion css page blog  start */
+/*foter start*/
+/*homme-foter start*/
+.home-foter .continer {
+    display: grid;
+    grid-template-columns:600px 300px 300px 300px;
+}
+.home-foter .continer {
+     width: 100rem;
+}
+.home-foter .continer .content .foter-1 p {
+    width: 550px;
+    margin: 0rem 1rem;
+    line-height: 1.5rem;
+}
+.home-foter .continer .content .media ul  {
+    list-style: none;
+    display: flex;
+    margin: 2rem;
+}
+.home-foter .continer .content .media ul li{
+    margin: 0.5rem;
+}
+.home-foter .continer .content2  ul li{
+    margin: 0.5rem;
+    list-style: none;
+    line-height: 2rem;
+}
+.home-foter .continer .content-3 ul li{
+    margin: 0.5rem;
+    list-style: none;
+    line-height: 2rem;
+}
+.home-foter .continer .content4 ul h3,p,input{
+    margin: 0.5rem;
+    list-style: none;
+    line-height: 3rem;
+}
+.home-foter .continer .content4 input {
+    color: #00000085;
+    text-align: center;
+}
